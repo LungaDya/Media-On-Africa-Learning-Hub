@@ -1,14 +1,15 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family:'poppins' , sans-serif;
 }
 
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/banner.jpg);
+  background-image: linear-gradient(rgba(3, 7, 4, 0.7), rgba(81, 204, 32, 0.7)),
+    url(css/istockphoto-1207872886-612x612.jpg);
+  background-color: #9ACD32;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -16,7 +17,7 @@
 
 nav {
     display: flex;
-    padding: 2% 6%;
+    padding: 0,6%;
     justify-content: space-between;
     align-items: center;
 }
@@ -75,6 +76,7 @@ font-size: 62px;
 .text-box {
     margin: 10px 0 40px;
     font-size: 14px;
+    font-weight: 500;
     color: #fff;
 }
 
@@ -92,8 +94,8 @@ font-size: 62px;
 }
 
 .hero-btn:hover {
-    border: 1px solid #fff;
-    background: #009dff;
+    border: 2px solid #fff;
+    background: #0c2916;
     transition: 1s;
 }
 
@@ -110,7 +112,7 @@ nav .fa {
     }
     .nav-links {
         position: fixed;
-        background: #009dff;
+        background: #01796F;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -124,17 +126,22 @@ nav .fa {
         color: #fff;
         margin: 10px;
         font-size: 22px;
-        cursor: pointer;
+        cursor:zoom-out;
     }
     .nav-links ul {
         padding: 30px;
     }
 }
 
+.header-illustration{
+    max-width: 300px ;
+    padding: 1%;
+}
+
 /* Subjects */
 
 .subjects {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
@@ -146,7 +153,7 @@ h1 {
 }
 
 p{
-    color: #777;
+    color: #cecdcd;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -161,7 +168,7 @@ p{
 
 .subject-col {
     flex-basis: 31%;
-    background: #00b3ff;
+    background: #0094b9;
     border-radius: 10px;
     margin-right: 2%;
     margin-left: 2%;
@@ -190,10 +197,14 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 /* facilities */
 
 .facilities {
-    width: 80%;
+    width: 100%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(rgba(81, 88, 114, 0.7), rgba(30, 4, 17, 0.7)),
+    url(css/What+is+Lifelong+Learning.png);
+    
 }
 
 .facilities-col {
@@ -209,7 +220,7 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 }
 
 .facilities-col p {
-    padding: 0;
+    padding: 50;
 }
 
 .facilities-col h3 {
@@ -272,7 +283,7 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 .cta {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/contact-us.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(css/gse-virtual-learning-NL.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -322,7 +333,7 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Aboutus.jpg);
+    background-image: linear-gradient(rgba(214, 167, 13, 0.7),rgba(4,9,30,0.7)),url(css/modern-education-20.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
